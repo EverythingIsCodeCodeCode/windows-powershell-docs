@@ -107,8 +107,8 @@ The queried rules can be placed into variables and piped to other cmdlets for fu
 When running the cmdlet with the Get verb for any firewall, IPsec, or main mode rule, notice that the common conditions like addresses or ports do not appear.
 These conditions are represented in separate objects called filters.
 The filter-to-rule relationship is always one-to-one and is managed automatically.
-If a query for rules based on these parameters (ports, addresses, security, interfaces, and services) is performed, then the filter objects with the corresponding cmdlet with the Get verb should to be retrieved.
-See the Get-NetFirewallAddressFilter, Get-NetFirewallApplicationFilter, Get-NetFirewallInterfaceFilter, Get-NetFirewallInterfaceTypeFilter, Get-NetFirewallPortFilter, Get-NetFirewallProfile, Get-NetFirewallSecurityFilter, Get-NetFirewallServiceFilter, or Get-NetFirewallRule cmdlet for more information.
+If a query for rules based on these parameters (ports, addresses, security, interfaces, and services) is performed, then the filter objects with the corresponding cmdlet with the Get verb should be retrieved.
+See the Get-NetFirewallAddressFilter, Get-NetFirewallApplicationFilter, Get-NetFirewallInterfaceFilter, Get-NetFirewallInterfaceTypeFilter, Get-NetFirewallPortFilter, Get-NetFirewallProfile, Get-NetFirewallSecurityFilter, Get-NetFirewallServiceFilter, or Get-NetFirewallRule cmdlets for more information.
 
 ## EXAMPLES
 
